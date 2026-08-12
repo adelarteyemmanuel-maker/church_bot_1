@@ -89,23 +89,7 @@ def handle_text(message):
         bot.send_message(message.chat.id, "оберіть команду")
 
 
-# def send_automatic_reminder():
-#     pass
-
-
-# schedule.every(10).seconds.do(send_automatic_reminder())
-
-# def run_scheduler():
-#     while True:
-#         schedule.run_pending()
-#         time.sleep(1)
-
 if __name__ == "__main__":
-    # print("Запускаю фоновий планувальник...")
-    # # Створюємо і запускаємо паралельний потік для планувальника
-    # scheduler_thread = threading.Thread(target=run_scheduler)
-    # scheduler_thread.start()
-
     print("Бот успішно запущено. Чекаю на повідомлення...")
     # polling означає, що бот постійно "стукає" на сервери Telegram і питає:
     # "Є нові повідомлення? А зараз? А зараз?"
