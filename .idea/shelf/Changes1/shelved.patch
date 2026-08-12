@@ -1,0 +1,382 @@
+Index: bot/credentials.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/credentials.json b/bot/credentials.json
+new file mode 100644
+--- /dev/null	(date 1785802482066)
++++ b/bot/credentials.json	(date 1785802482066)
+@@ -0,0 +1,13 @@
++{
++  "type": "service_account",
++  "project_id": "gen-lang-client-0336421657",
++  "private_key_id": "9fb67b1195199dc1d8be6127561a449dc09538d2",
++  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC41zinxwxdiVnQ\nR7TNAqF2vyh682SfXNIY3MJIXojfU8ZbgaQU7Ki4p16LVspAzeeQGQ86FN0NhfYD\npcOIb48fhy1VfFo55egWIs2lqdnpBix2zmDtgPkiDKwSsEGfJUGi5VC0XGgN+Jzv\nHAH1fHYfyj51WyAT1XZjQIGB4t3DRZGI2DKDYZU+84zok48vK4n98sf4BiLsA8sq\nGubmWqU/D6X8chla8gYIfA+hT7haDSCTSs2Zt9GxTtd568E1Do+6aWpDJCWNM3K/\nFxcU1d/HsSmW7IiV1ScKmvqGgtF3RQ2Vv/IB+tQuAmb2D+ZQ2vzX577bvhG7uEI0\nVSDVf2rpAgMBAAECggEAFlNagrtSRUb2e+d5UUzIy1K19TnKNMxtjPa3Ga4fapgQ\nDJPpSWS3UUxX6U0Tk0W7eyZntix4ca51Q0YFishsuVJmuZ1SOY2JHYlZHPIZwaFP\nBA+T2gP6s2/j5cL3vhzuI1p+x7YklFFrxR61Jt1AWEEhj6OwyWx+Ruku600HW5Mq\nMQ1lMn2KJyViJEWCQFT5ZxoeiV6oPCpy3wX9P2zDh1EvLpOelEl+LS6FcflYv0vd\n8kCwZAcsQCIvzxrJED+fF24jo2brT4a1bDFyxjdfFf53H0ZkqbfZcb95zH2N5mFo\nXzS29sWF7fxUYsn+Bm6siUIebrIqai26YmeA1twgYQKBgQDjvbtL6IzwqUmoAI+J\nnjPv2yIHFapWorISq3qT9cBmnDpr3gxeRstaMjmr6rANTf4LYVPvbgaN5ZtEQlf/\nqT0Q0+KMJCGVs53W4DchfARJFp49chTn5WyrgfeAJSFtpNzsWry+Kcdi4ZcyrxGT\n05pak7J1QXebhsRwT79O42IWuQKBgQDPxr59lRtVtUBK99uUQADaHH39SegpLJ58\n6oTbqZceAoeofRz70cs+3ibxxQF9xAIryg7HccOsfQsIsWSdPBOfB3lzwntSp70l\nmrBa5gThDh26gF2b0XfIULM10cbcsFmqV8TBZEKm/d8LVI5hnGXqXSdmLnkJ8ZUV\njaAB8ZDdsQKBgQDAtMgqmDHCZozj8u2CVnK+MB+f/Q4w1uR1ddJ4JsfSS7oHklHG\n6IKj5MH2HdUwvOENgiLDA8faBAKZBMZvmCYK+i/Fw8EDaoRR0VH1LHp32gK2HbVg\n8Do++e+S6Fhb7dfey3zQMIv9uMP26DqoarI+mKG2JFpwKN5J5sELoM5cSQKBgQC6\neYKJLwNDXtJ+9ghJ+09IcX3ZjzUfjv4G2mu2wXPw6RBbdT5H+zfQCo0lO0xlVT8l\nkcjF0yJsciUu/hZwz3REq+6iqA8KVaT6VOSmD/6dBZBEy+Q3bj10uIi+arFxa4xt\nxyu87YCsYviFMLRAgp8tQcGUgWz8Mac9msfaNrVvYQKBgQCRi48IN599JjBwdI1L\nl3oisvsgm2fIPxOo0LR7ioHcRqJ3i6gyjSiVj+z6rm43N36xbMIu+NoT+9Hq0Y8C\nL26K8kg3s8bN6xzC9HlpdP4NuQhzDSEIDMDNHvmCWMBh5/yIdC+1V4PL2hs3OtXQ\nCQv5sPrO8Sq2xyvqt6U1p32+0Q==\n-----END PRIVATE KEY-----\n",
++  "client_email": "id-deaco-n-bot@gen-lang-client-0336421657.iam.gserviceaccount.com",
++  "client_id": "116284826893614704649",
++  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
++  "token_uri": "https://oauth2.googleapis.com/token",
++  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
++  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/id-deaco-n-bot%40gen-lang-client-0336421657.iam.gserviceaccount.com",
++  "universe_domain": "googleapis.com"
++}
+Index: .idea/church_bot.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/church_bot.iml b/.idea/church_bot.iml
+new file mode 100644
+--- /dev/null	(date 1781082618436)
++++ b/.idea/church_bot.iml	(date 1781082618436)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.13 (church_bot)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1781082618446)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1781082618446)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: exp.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/exp.py b/exp.py
+new file mode 100644
+--- /dev/null	(date 1785411646184)
++++ b/exp.py	(date 1785411646184)
+@@ -0,0 +1,9 @@
++list_weekdays = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
++list_days = ["Пн", "Чт", "Пт"]
++new_list_days = []
++
++for day in list_days:
++    if day in list_weekdays:
++        new_list_days.append(list_weekdays.index(day))
++
++print(new_list_days)
+\ No newline at end of file
+Index: ideas.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ideas.py b/ideas.py
+new file mode 100644
+--- /dev/null	(date 1785412487952)
++++ b/ideas.py	(date 1785412487952)
+@@ -0,0 +1,101 @@
++import datetime
++
++# Відповідь на message від користувача на повідомлення start
++
++mes = input("Привіт користувач! Будемо починати працю(напишіть ʼstartʼ) ")
++
++def give_date(start_date, end_date, days_input):
++    list_weekdays = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Нд"]
++    current_date = start_date
++    int_list_days = []
++
++    for day in days_input:
++        if day in list_weekdays:
++            int_list_days.append(list_weekdays.index(day))
++
++    result = []
++    count = 0
++    while current_date <= end_date:
++        if current_date.weekday() in int_list_days:
++            date = datetime.datetime.strftime(current_date, "%d/%m") + "(" + str(list_weekdays[current_date.weekday()]) + ")"
++
++            result.append(date)
++
++            if count % len(days_input):
++                result.append("\n")
++                result.append("New week:")
++        count += 1
++        current_date = current_date + datetime.timedelta(days=1)
++
++
++    return result
++
++def list_dates(start, end, choice):
++    #Перетворюємо вхідні дані на зрозумілу мову
++
++    start_date = datetime.datetime.strptime(start, "%d/%m/%Y")
++    end_date = datetime.datetime.strptime(end, "%d/%m/%Y")
++
++    if choice == 1:
++        days_input = ["Ср", "Нд"]
++        result = give_date(start_date, end_date, days_input)
++
++        return result
++
++    elif choice == 2:
++        days_input = ["Чт", "Пт", "Нд"]
++        result = give_date(start_date, end_date, days_input)
++
++        return result
++
++    elif choice == 3:
++        days_input = input("Впишіть дні тижня, які вам потрібні('Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Нд'): ").split()
++        result = give_date(start_date, end_date, days_input)
++
++        return result
++
++    return None
++
++
++
++if mes == "start":
++    print()
++    print("Праця почалась!")
++    while True:
++        print("Оберіть задачу, яку потрібно виконати з панелі ʼМЕНЮʼ:")
++        print("\n 'МЕНЮ':"
++              "\n 1)Створення списку дат по днях"
++              "\n 2)Створення повідомлення для обʼяв"
++              "\n 0)Закінчити роботу")
++        choice = int(input("Зробить свій вибір(потрібна цифра): "))
++
++        if choice == 1:
++            print("Оберіть, який саме список вам потрібен:")
++            print("\n1)Для лідерів прославлення"
++                            "\n2)Для своєї групи прославлення"
++                            "\n3)Свій список")
++            choice =  int(input("\nЗробіть свій вибіл(1-3): "))
++
++            start = input("\nВпишіть початкову дату(dd/mm/yy): ")
++            end = input("Впишіть кінцеву дату(dd/mm/yy): ")
++
++            dates = list_dates(start, end, choice)
++
++            print()
++            count = 0
++            for date in dates:
++                print(dates[count])
++                # if count % len(days_input):
++                #     print()
++                count += 1
++
++        elif choice == 2:
++            None
++
++        elif choice == 0:
++            print()
++            print("Роботу закінчено")
++            break
++else:
++    print()
++    print("Праця не почалась(")
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1781082625979)
++++ b/.idea/misc.xml	(date 1781082625979)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.13 (church_bot)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (church_bot)" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1781089458666)
++++ b/.idea/vcs.xml	(date 1781089458666)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1781082618444)
++++ b/.idea/modules.xml	(date 1781082618444)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/church_bot.iml" filepath="$PROJECT_DIR$/.idea/church_bot.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1781082622563)
++++ b/.idea/.gitignore	(date 1781082622563)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
+Index: bot/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/bot/main.py b/bot/main.py
+new file mode 100644
+--- /dev/null	(date 1785877920353)
++++ b/bot/main.py	(date 1785877920353)
+@@ -0,0 +1,109 @@
++import os
++import telebot
++import gspread
++import time
++import schedule
++import threading
++from dotenv import load_dotenv
++from telebot import types
++
++
++load_dotenv()
++
++key_bot = os.getenv("BOT_TOKEN")
++
++leaders_contacts = {
++    "Молодіжка": "@ivan_youth",
++    "Прославлення": "@anna_worship",
++    "Дитяче служіння": "@maria_kids",
++    "Домашня група (Центр)": "@oleg_center"
++}
++
++gc = gspread.service_account(filename='credentials.json')
++sh = gc.open('Church_Schedule')
++
++bot = telebot.TeleBot(key_bot)
++
++worksheet = sh.sheet1
++
++def send_schedule(message):
++    data = worksheet.get_all_records()
++
++    response_text = "Наш розклад:\n\n"
++
++    #Перебираємо список у якому декілька словників
++    for row in data:
++        #Запаковуємо словник на змінні
++        day = row["День"]
++        service = row["Служіння"]
++        time = row["Час"]
++
++        #Формуємо відповідь у вигляді str
++        response_text += f"🗓 {day}: {service} о {time}\n"
++
++    bot.send_message(message.chat.id, response_text)
++
++
++@bot.message_handler(commands=["start"])
++def send_start(message):
++    # Об'єкт message містить купу корисної інформації:
++    # message.chat.id - унікальний ID чату, куди треба відправити відповідь
++    # message.from_user.first_name - ім'я людин
++    user_name = message.from_user.first_name
++
++    markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
++
++    #Кнопки
++    btn1 = types.KeyboardButton("📞 Контакти лідерів")
++    btn2 = types.KeyboardButton("📅 Розклад служінь")
++
++    #Додавання кнопок
++    markup.add(btn1, btn2)
++
++    bot.reply_to(message, f"Привіт {user_name}! Я помічник нашої церкви. Обери команду в меню.", reply_markup=markup)
++
++
++def send_contacts(message):
++    response_text = "Наші контакти:\n\n"
++
++    # Метод .items() віддає одразу два значення: ключ і його значення
++    for name, contact in leaders_contacts.items():
++        # Додаємо нові дані до нашого тексту (+=) і перехід на новий рядок (\n)
++        response_text += f"{name}: {contact}\n"
++
++    bot.send_message(message.chat.id, response_text)
++
++@bot.message_handler(content_types=["text"])
++def handle_text(message):
++    if message.text == "📞 Контакти лідерів":
++        send_contacts(message)
++
++    elif message.text == "📅 Розклад служінь":
++        send_schedule(message)
++
++    else:
++        bot.send_message(message.chat.id, "оберіть команду")
++
++
++def send_automatic_reminder():
++    TODO:None
++    pass
++
++
++schedule.every(10).seconds.do(send_automatic_reminder())
++
++def run_scheduler():
++    while True:
++        schedule.run_pending()
++        time.sleep(1)
++
++if __name__ == "__main__":
++    print("Запускаю фоновий планувальник...")
++    # Створюємо і запускаємо паралельний потік для планувальника
++    scheduler_thread = threading.Thread(target=run_scheduler)
++    scheduler_thread.start()
++
++    print("Бот успішно запущено. Чекаю на повідомлення...")
++    # polling означає, що бот постійно "стукає" на сервери Telegram і питає:
++    # "Є нові повідомлення? А зараз? А зараз?"
++    bot.polling(none_stop=True)
+\ No newline at end of file
