@@ -88,7 +88,7 @@ def handle_text(message):
     else:
         bot.send_message(message.chat.id, "оберіть команду")
 
-
+#
 if __name__ == "__main__":
     print("Бот успішно запущено. Чекаю на повідомлення...")
     # polling означає, що бот постійно "стукає" на сервери Telegram і питає:
